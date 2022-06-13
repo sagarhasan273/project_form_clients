@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html lang="en"><!-- Basic -->
+<html lang="en">
+<!-- Basic -->
+
 <head>
 	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-     <!-- Site Metas -->
-    <title>Canteen Management system</title>  
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">    
+	<!-- Site Metas -->
+	<title>Canteen Management system</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Site Icons -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">    
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
 
 
 </head>
@@ -38,26 +40,23 @@
 					<img src="images/logos.png" width="150px" height="100px" alt="" />
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-				  <span class="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div>
 
 					<?php
-					if(isset($_SESSION['uid']))
-					{
+					if (isset($_SESSION['uid'])) {
 					?>
-					HI <?php echo $_SESSION['uid']; ?> &nbsp;&nbsp; <a href="cart.php">Cart</a>&nbsp;&nbsp; <a href="logout.php">LogOut</a>
-					<?php	
-					}
-					else
-					{	
+						HI <?php echo $_SESSION['uid']; ?> &nbsp;&nbsp; <a href="cart.php">Cart</a>&nbsp;&nbsp; <a href="logout.php">LogOut</a>
+					<?php
+					} else {
 					?>
-					<a href="registration.php">New User</a>&nbsp;&nbsp;&nbsp;<a href="login.php">Login</a>&nbsp;&nbsp;&nbsp;<a href="admin/index.php">Admin Login</a>
+						<a href="registration.php">New User</a>&nbsp;&nbsp;&nbsp;<a href="login.php">Login</a>&nbsp;&nbsp;&nbsp;<a href="admin/index.php">Admin Login</a>
 					<?php
 					}
-					?>	
+					?>
 
-					  </div>
+				</div>
 				<div class="collapse navbar-collapse" id="navbars-rs-food">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
