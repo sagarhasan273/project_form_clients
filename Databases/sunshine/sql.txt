@@ -1,0 +1,34 @@
+employee insert data:
+
+INSERT INTO `employee`(`employee_no`, `employee_name`, `department_name`) VALUES (01,'KAYLING','Operations');
+INSERT INTO `employee`(`employee_no`, `employee_name`, `department_name`) VALUES (02,'BLAZE','Accounting');
+INSERT INTO `employee`(`employee_no`, `employee_name`, `department_name`) VALUES (03,'CLARE','Research');
+INSERT INTO `employee`(`employee_no`, `employee_name`, `department_name`) VALUES (04,'JONAS','Accounting');
+INSERT INTO `employee`(`employee_no`, `employee_name`, `department_name`) VALUES (05,'SCARLET','Research');
+INSERT INTO `employee`(`employee_no`, `employee_name`, `department_name`) VALUES (06,'SCOTT','Sales');
+INSERT INTO `employee`(`employee_no`, `employee_name`, `department_name`) VALUES (07,'FORD','Sales');
+INSERT INTO `employee`(`employee_no`, `employee_name`, `department_name`) VALUES (08,'ADELYN','Operations');
+INSERT INTO `employee`(`employee_no`, `employee_name`, `department_name`) VALUES (09,'MADDEN','Sales');
+INSERT INTO `employee`(`employee_no`, `employee_name`, `department_name`) VALUES (10,'TUCKER','Operations');
+
+
+department insert data:
+
+INSERT INTO `department`(`department_no`, `department_name`) VALUES ('1001','Accounting');
+INSERT INTO `department`(`department_no`, `department_name`) VALUES ('1002','Research');
+INSERT INTO `department`(`department_no`, `department_name`) VALUES ('1003','Sales');
+INSERT INTO `department`(`department_no`, `department_name`) VALUES ('1004','Operations');
+
+
+salary insert data:
+
+INSERT INTO `salary`(`employee_no`, `salary_clip_no`, `employee_name`, `salary`) VALUES (01,0001,'KAYLING',35000);
+INSERT INTO `salary`(`employee_no`, `salary_clip_no`, `employee_name`, `salary`) VALUES (02,0002,'BLAZE',15000);
+INSERT INTO `salary`(`employee_no`, `salary_clip_no`, `employee_name`, `salary`) VALUES (03,0003,'CLARE',55000);
+INSERT INTO `salary`(`employee_no`, `salary_clip_no`, `employee_name`, `salary`) VALUES (04,0004,'JONAS',45000);
+INSERT INTO `salary`(`employee_no`, `salary_clip_no`, `employee_name`, `salary`) VALUES (05,0005,'SCARLET',30000);
+INSERT INTO `salary`(`employee_no`, `salary_clip_no`, `employee_name`, `salary`) VALUES (06,0006,'SCOTT',65000);
+INSERT INTO `salary`(`employee_no`, `salary_clip_no`, `employee_name`, `salary`) VALUES (07,0007,'FORD',38000);
+INSERT INTO `salary`(`employee_no`, `salary_clip_no`, `employee_name`, `salary`) VALUES (08,0008,'ADELYN',25000);
+INSERT INTO `salary`(`employee_no`, `salary_clip_no`, `employee_name`, `salary`) VALUES (09,0009,'MADDEN',28000);
+INSERT INTO `salary`(`employee_no`, `salary_clip_no`, `employee_name`, `salary`) VALUES (10,0010,'TUCKER',48000);
